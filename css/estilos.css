@@ -4,6 +4,14 @@ body {
     font-family: 'Varela', sans-serif;
 }
 
+.body__index {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+}
+
 :root {
     --azulMarino: #000066;
     --grisClaro: #f5f5f5;
@@ -110,4 +118,69 @@ main .hero__presentation a {
 
 main .hero__presentation p {
     margin: 10px 0px;
+}
+
+/*finalizan estilos de index.html*/
+
+footer {
+    display: grid;
+    width: 100%;
+    height: auto;
+    padding: 20px 0px;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 2fr 1fr;
+    background-color: var(--azulMarino);
+    color: var(--grisClaro);
+    grid-template-areas: "footer__contact footer__social"
+                         "footer__copy footer__copy";
+}
+
+footer .footer__contact {
+    grid-area: footer__contact;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+}
+
+footer .footer__contact p {
+    margin: 3px 0px;
+}
+
+footer .footer__contact p:nth-of-type(1) {
+    color: var(--amarillo);
+    font-weight: bold;
+}
+
+footer .footer__contact span {
+    font-weight: bold;
+}
+
+footer .footer__social {
+    grid-area: footer__social;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+footer .footer__social a {
+    font-size: 3em;
+    margin: 0px 15px;
+    color: var(--grisClaro);
+}
+
+footer .footer__social a:hover {
+    color: var(--amarillo);
+}
+
+footer .footer__copy {
+    grid-area: footer__copy;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer .footer__copy span {
+    color: var(--amarillo);
+    font-weight: bold;
 }
