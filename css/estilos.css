@@ -187,6 +187,33 @@ footer .footer__copy span {
 
 /* Termina footer */
 
+/* inicia estilos de certificados.html*/
+
+.main__certificates {
+    width: 100%;
+    padding: 5% 0px;
+    background-color: var(--grisClaro);
+}
+
+.certificates__last {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.certificates__last .certificates__image-container {
+    width: 100%;
+}
+
+.certificates__last .certificates__image-container img {
+    width: 100%;
+}
+
+.certificates__last .certificates__description {
+    margin-left: 20px;
+    font-size: 1.2em;
+}
+
 @media screen and (max-width: 480px) {
     .body__index{
         position: initial;
