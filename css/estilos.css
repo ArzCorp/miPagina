@@ -184,3 +184,47 @@ footer .footer__copy span {
     color: var(--amarillo);
     font-weight: bold;
 }
+
+/* Termina footer */
+
+@media screen and (max-width: 480px) {
+    .body__index{
+        position: initial;
+    }
+
+    header {
+        display: block;
+        height: auto;
+        padding: 20px 0px;
+    }
+
+    header .header__logo {
+        text-align: center;
+        padding: 10px 0px;
+    }
+
+    .hero {
+        display: block;
+    }
+
+    .hero__image-container {
+        width: 300px;
+        height: 300px;
+        margin: 0 auto;
+    }
+
+    .hero__presentation h2 {
+        text-align: center;
+        padding: 20px 0px;
+    }
+
+    footer {
+        display: block;
+        text-align: center;
+    }
+
+    footer .footer__social {
+        width: 300px;
+        padding: 20px 0px;
+    }
+}
