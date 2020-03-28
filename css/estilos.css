@@ -337,8 +337,8 @@ footer .footer__copy span {
     }
 
     .certificates__last .certificates__description {
-        margin: 0 auto;
-        width: 400px;
+        padding: 25px;
+        box-sizing: border-box;
     }
 
     .certificates__all {
