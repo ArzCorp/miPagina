@@ -268,6 +268,7 @@ footer .footer__copy span {
     padding: 0px 10px;
     border-bottom-left-radius: 20px;
     border-bottom-right-radius: 20px;
+    font-size: .8em;
 }
 
 @media screen and (max-width: 480px) {
@@ -314,5 +315,40 @@ footer .footer__copy span {
     footer .footer__social {
         width: 300px;
         padding: 20px 0px;
+    }
+
+    /*responsive de certificados.html*/
+
+    .main__certificates .certificates__title {
+        margin: 10px auto;
+        width: 300px;
+        text-align: center;
+    }
+
+    .certificates__last {
+        display: block;
+    }
+
+    .certificates__last .certificates__image-container {
+        width: 80%;
+        height: 294px;
+        margin: 0 auto;
+        margin-bottom: 25px;
+    }
+
+    .certificates__last .certificates__description {
+        margin: 0 auto;
+        width: 400px;
+    }
+
+    .certificates__all {
+        grid-template-columns: 1fr;
+        padding: 5% 25px;
+        box-sizing: border-box;
+    }
+
+    .certificate__card div {
+        height: 50px;
+        padding: 10px;
     }
 }
