@@ -342,7 +342,7 @@ footer .footer__copy span {
         width: 80%;
         height: 294px;
         margin: 0 auto;
-        margin-bottom: 25px;
+        margin: 10px auto;
     }
 
     .certificates__last .certificates__description {
