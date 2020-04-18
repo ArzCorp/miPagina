@@ -344,7 +344,7 @@ footer .footer__copy span {
 
   .certificates__last .certificates__image-container {
     width: 80%;
-    height: 294px;
+    height: auto;
     margin: 0 auto;
     margin: 10px auto;
   }
